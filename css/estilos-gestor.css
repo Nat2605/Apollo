@@ -1,0 +1,56 @@
+.gestor-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background: #FFEBB7;
+}
+
+.gestor-btn-cierre {
+    width: 40px;
+    margin: 5px 5px 0 0;
+}
+
+.gestor-seccion {
+    width: 100%;
+    padding: 20px;
+    background: #FFEBB7;
+    height: 100vh;
+}
+
+.gestor-seccion-container {
+    width: 30%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "btn-adduser btn-listactiv"
+        "btn-proximo1 btn-proximo2";
+    gap: 50px;
+}
+
+.gestor-btn {
+    margin: auto;
+    border-radius: 40px;
+}
+
+.adduser {
+    grid-area: btn-adduser;
+}
+
+.listactiv {
+    grid-area: btn-listactiv;
+}
+
+.proximo1 {
+    grid-area: btn-proximo1;
+}
+
+.proximo2 {
+    grid-area: btn-proximo2;
+}
+
+.gestor-container-img {
+    width: 180px;
+    border-radius: 40px;
+}

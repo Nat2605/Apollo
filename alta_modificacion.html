@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-alta_modificacion.css">
+    <title>Actividades Alta-Modificación</title>
+</head>
+
+<body>
+    <main class="principal">
+        <header class="cabecera">
+            <div class="logo">
+                <a href="gestor.html">
+                    <img src="img/ies_Vigan.png" alt="I.E.S. VIGÁN GESTOR DE CONTENIDOS"
+                        title="I.E.S. VIGÁN GESTOR DE CONTENIDOS">
+                </a>
+            </div>
+            <div class="titulo">
+
+                <H3>GESTOR DE CONTENIDOS</H3>
+                <H1>ALTA-MODIFICACIÓN</H1>
+            </div>
+        </header>
+        <nav class="gestor-navbar">
+            <a href="login.html">
+                <img class="gestor-btn-cierre" src="img/8.png" alt="Cerrar Sesión" title="Cerrar Sesión">
+            </a>
+        </nav>
+        <section class="seccion-alta-modificacion">
+            <!--AQUÍ VUESTRO CÓDIGO-->
+            <div class="alta-modificacion-formulario">
+                <form name="formulario" action="" method="">
+                    <div class="alta-modificacion-nombre">
+                        <label class="alta-modificacion-label" for="nombre">Nombre de la actividad:</label>
+                        <input type="text" name="nombre" placeholder="Actividad" required>
+
+                    </div>
+                    <div class="alta-modificacion-nombre">
+                        <label class="alta-modificacion-label" for="inicio">Fecha Inicio:</label>
+                        <input type="date" name="inicio" required>
+                    </div>
+
+                    <div class="alta-modificacion-nombre">
+                        <label class="alta-modificacion-label" for="fin">Fecha Fin:</label>
+                        <input type="date" name="fin" required>
+
+                    </div>
+                    <div class="alta-modificacion-nombre">
+                        <label class="alta-modificacion-label" for="descripcion">Descripcion:</label>
+                        <textarea name="descripcion" placeholder="Descripcion de la actrividad" maxlength="300"
+                            required></textarea>
+                    </div>
+                    <div class="alta-modificacion-nombre">
+                        <label class="alta-modificacion-label" for="archivo">Archivo:</label>
+                        <input type="file" name="archivo" required>
+
+                    </div>
+                    <div class="alta-modificacion-nombre">
+                        <input type="button" name="Cancelar" value="Cancelar" class="seccion-guardar" alt="Cancelar"
+                            title="Cancelar">
+                        <input type="submit" name="Guardar" value="Guardar Datos" class="seccion-guardar"
+                            alt="Guardar Datos" title="Guardar Datos">
+                    </div>
+
+
+                </form>
+            </div>
+        </section>
+        <footer class="pie">
+            <div class="copy-right">
+                <p>© Todos los derechos de autor reservados a: DAW VIGAN</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

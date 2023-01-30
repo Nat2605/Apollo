@@ -1,0 +1,71 @@
+.seccion-login {
+    width: 100%;
+    height: 100vh;
+    background: #FFEBB7;
+}
+
+.seccion-login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+    margin-top: 49px;
+    width: 100%;
+    background: #FFEBB7;
+}
+
+.seccion-login-container .estilo-formulario {
+
+    padding: 10px;
+    width: 410px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #FF6E31;
+}
+
+.seccion-login-container .estilo-formulario .campos-formulario {
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-areas: "separador-login separador-login-input";
+}
+
+.seccion-login-container .estilo-formulario .campos-formulario .separador-login {
+
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+.seccion-login-container .estilo-formulario .campos-formulario-boton {
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "login-btn-enviar"
+}
+
+.seccion-login-container .estilo-formulario .campos-formulario-boton {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.seccion-login-container .estilo-formulario .campos-formulario-boton .login-btn-enviar {
+
+    padding: 10px;
+    background-color: #FF6E31;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    width: 25%;
+}

@@ -1,0 +1,72 @@
+.gestor-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background: #FFEBB7;
+}
+
+.gestor-btn-cierre {
+    width: 40px;
+    margin: 5px 5px 0 0;
+}
+
+
+
+.seccion-alta-modificacion {
+    width: 100%;
+    padding: 20px;
+    background: #FFEBB7;
+    height: 100vh;
+}
+
+.alta-modificacion-formulario {
+    display: grid;
+    grid-gap: 20px;
+    width: 600px;
+    height: 450px;
+    padding: 20px;
+    margin: auto;
+    border-style: solid;
+    border-color: #FF6E31;
+
+}
+
+.alta-modificacion-label {
+    width: 181px;
+    display: block;
+    font-weight: bold;
+}
+
+.seccion-guardar {
+    padding: 10px;
+    background-color: #FF6E31;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+}
+
+.alta-modificacion-nombre {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, auto);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-areas: "separador-login separador-input";
+
+}
+
+.alta-modificacion-guardar {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.alta-modificacion-formulario-boton {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "seccion-guardar";
+
+}
